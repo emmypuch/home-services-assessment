@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div#wrapper {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 10% 80%;
+}
+
+h2 {
+    color: #0F241B;
+    font-size: 1rem;
+    text-align: center;
+}
+
+div.progress-bar_section {
+    padding: 2.5rem;
+}
+
+div.progress-section {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    counter-reset: step;
+    margin: 2rem 0 4rem;
+}
+
+div.progress-section::before, div.progress {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 100%;
+    background-color: #dcdcdc;
+    z-index: -1;
+}
+
+div.progress {
+    background-color: #03A84E;
+    width: 0%;
+    transition: 0.3s;
+}
+
+div.progress-step {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* counter-reset: step; */
+}
+
+div.progress-step::before {
+    counter-increment: step;
+    content: counter(step);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cfeddc;
+    font-size: 0.8rem;
+}
+
+div.progress-step::after {
+    content: attr(data-title);
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    font-size: 0.8rem;
+    color: #0F241B;
+}
+
+.progress-step-active {
+    background-color: #089046;
+}
+
+.progress-step-active1 {
+    background-color: #03A84E;
+}
+
+.progress-step-inactive {
+    background-color: #dbebe2;
+    color: #0F241B;
+}
+
+/* Container Section */
+div.container-heading {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+div.container-heading h1{
+    font-size: 2rem;
+    color: #0F241B;
+}
+
+div.container-heading p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #4B6358;
+}
+/* Plan Section */
+div.plan-heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+div.plan-heading h5 {
+    color: #0F241B;
+    font-size: 1.1rem;
+}
+
+div.plan-heading a {
+    color: #03A84E;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+div.line {
+    /* width: 3px; */
+    height: 3px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: #CBD8D2;
+}
+
+@media screen and (max-width: 768px) {
+    div.progress-bar_section {
+        padding: 2rem;
+    }
+
+    h2 {
+        margin-left: 10px;
+    }
+
+    div.container-heading h1 {
+        font-size: 1.8rem;
+    }
+    
+    div.container-heading p {
+        font-size: 0.9rem;
+    }
+}
