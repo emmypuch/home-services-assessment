@@ -5,6 +5,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 div#wrapper {
@@ -127,7 +135,7 @@ div.plan-heading a {
 }
 
 div.line {
-    height: 3px;
+    height: 2px;
     margin-left: 4rem;
     margin-right: 4rem;
     background-color: #CBD8D2;
@@ -215,11 +223,34 @@ div.icon-2 img {
 }
 
 div.line1 {
-    height: 3px;
+    height: 2px;
     margin-top: 4rem;
     margin-left: 4rem;
     margin-right: 4rem;
     background-color: #CBD8D2;
+}
+
+/* Date Section */
+div.choose {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+div.yellow-box {
+    background-color: #FFFDF5;
+    padding: 10px 30px;
+    height: 90px;
+    border-radius: 10px;
+    border: 1px solid #FFEBB2;
+    display: flex;
+}
+
+div.yellow-box p {
+    color: #0F241B;
+    font-size: 1rem;
+    color: #0F241B;
+    margin-left: 10px;
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -271,6 +302,17 @@ div.line1 {
     div.food-plan_container {
         padding-left: 2rem;
         padding-right: 2rem;
+    }
+
+    div.choose {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    div.line1 {
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 
 }
