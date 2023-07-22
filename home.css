@@ -55,7 +55,7 @@ h2 {
 } */
 
 /* Faq Section */
-div.box, div.food-container, div.house-container {
+div.box, div.food-container, div.house-container, div.footer-section, div.house-icon_container {
     padding-left: 4rem;
     padding-right: 4rem;
 }
@@ -93,9 +93,8 @@ div.wrapper {
     background-color: #F6FFFA;
     padding: 10px 30px;
     border-radius: 10px;
-    /* height: 150px; */
     border: 2px solid #6ECE8A;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 div.food-box {  
@@ -174,7 +173,7 @@ div.wrapper1 {
     padding: 10px 30px;
     border-radius: 10px;
     border: 2px solid #FFC260;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 div.food-box1 {
@@ -216,6 +215,30 @@ div.line1 {
     height: 1px;
 }
 
+/* Footer Section */
+div.house-icon_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+
+div.house-icon_container ul li{
+    margin-left: 15px;
+    list-style: none;
+}
+
+div.house-icon_container ul li a{
+    text-decoration: none;
+}
+
+div.house-icon_container ul li a h6{
+    color: #8AA398;
+    font-size: 1rem;
+    margin-top: 7px;
+}
+
 div.hamburger {
     display: none;
 }
@@ -225,14 +248,10 @@ div.hamburger {
     display: none;
    } 
 
-   div.box, div.food-container, div.house-container {
-       padding-left: 2rem;
-       padding-right: 2rem;
+   div.box, div.food-container, div.house-container, div.footer-section, div.house-icon_container {
+       padding-left: 1rem;
+       padding-right: 1rem;
    }
-
-   /* div.green-container {
-       height: 120px;
-   } */
 
    div.image-text h6, div.text2 h4 {
        font-size: 0.9rem;
