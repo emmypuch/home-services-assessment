@@ -55,14 +55,14 @@ h2 {
 } */
 
 /* Faq Section */
-div.box, div.food-container {
+div.box, div.food-container, div.house-container {
     padding-left: 4rem;
     padding-right: 4rem;
 }
 
 div.img {
     position: absolute;
-    bottom: -4px;
+    bottom: -3px;
     right: 0;
 }
 
@@ -93,7 +93,7 @@ div.wrapper {
     background-color: #F6FFFA;
     padding: 10px 30px;
     border-radius: 10px;
-    height: 100px;
+    /* height: 150px; */
     border: 2px solid #6ECE8A;
     margin-top: 20px;
 }
@@ -131,8 +131,14 @@ div.text h4 {
     text-align: center;
 }
 
-div.image-container {
+div.image-container, div.clock-container {
     display: flex;
+    margin-top: 15px;
+}
+
+div.image-text {
+    margin-left: 20px;
+    margin-top: 7px;
 }
 
 div.image-text p {
@@ -146,6 +152,70 @@ div.image-text h6 {
     margin-top: 5px;
 }
 
+div.line {
+    height: 1px;
+    background-color: #BDEECD;
+    margin-top: 7px;
+}
+
+div.clock-text {
+    margin-left: 6px;
+    margin-top: 1px;
+}
+
+div.clock-text h6 {
+    font-size: 0.8rem;
+    color: #1D352A;
+}
+
+/* House Section */
+div.wrapper1 {
+    background-color: #FFFBF5;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid #FFC260;
+    margin-top: 20px;
+}
+
+div.food-box1 {
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+}
+
+div.icon1,
+div.icon-3 {
+    display: flex;
+
+}
+
+div.icon-3 {
+    background-color: #FFF3DF;
+    border-radius: 30px;
+    padding: 5px 10px;
+}
+
+div.text1 {
+    margin-top: 3px;
+}
+
+div.text2 h4 {
+    font-size: 1rem;
+    color: #FF9D00;
+}
+
+div.text1 h4 {
+    font-size: 0.8rem;
+    color: #FF9D00;
+    text-align: center;
+}
+
+div.line1 {
+    background-color: #FFDA9F;
+    margin-top: 7px;
+    height: 1px;
+}
+
 div.hamburger {
     display: none;
 }
@@ -155,12 +225,20 @@ div.hamburger {
     display: none;
    } 
 
-   div.box, div.food-container {
+   div.box, div.food-container, div.house-container {
        padding-left: 2rem;
        padding-right: 2rem;
    }
 
-   div.green-container {
+   /* div.green-container {
        height: 120px;
+   } */
+
+   div.image-text h6, div.text2 h4 {
+       font-size: 0.9rem;
+   }
+
+   div.par p{
+    font-size: 0.8rem;
    }
 }
