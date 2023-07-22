@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
-
 * {
-    font-family: 'Roboto Mono', monospace;
+    font-family: Cerebri Sans;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -105,6 +103,7 @@ div.container-heading {
 div.container-heading h1{
     font-size: 2rem;
     color: #0F241B;
+    font-family: PT Serif;
 }
 
 div.container-heading p {
