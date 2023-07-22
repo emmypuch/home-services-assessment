@@ -12,3 +12,155 @@
 html {
     scroll-behavior: smooth;
 }
+
+div#navLinks {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 0.8rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+h2 {
+    font-size: 1.3rem;
+    color: #0F241B;
+    font-family: PT Serif;
+}
+
+/* .faq-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.faq-item {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.question {
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.answer {
+    display: none;
+    padding: 10px;
+} */
+
+/* Faq Section */
+div.box, div.food-container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+div.img {
+    position: absolute;
+    bottom: -4px;
+    right: 0;
+}
+
+div.green-container {
+    position: relative;
+    background-color: #03A84E;
+    padding: 10px 30px;
+    border-radius: 10px;
+    height: 100px;
+    border: 2px solid #6ECE8A;
+}
+
+div.green-container h3 {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+div.green-container p {
+    font-size: 0.9rem;
+    color: #fff;
+    margin-top: 10px;
+}
+
+/* Food */
+div.wrapper {
+    background-color: #F6FFFA;
+    padding: 10px 30px;
+    border-radius: 10px;
+    height: 100px;
+    border: 2px solid #6ECE8A;
+    margin-top: 20px;
+}
+
+div.food-box {  
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+}
+
+div.icon,
+div.icon-2 {
+    display: flex;
+   
+}
+
+div.icon-2 {
+    background-color: #E9FBF2;
+    border-radius: 30px;
+    padding: 5px 10px;
+}
+
+div.text {
+    margin-top: 3px;
+}
+
+div.text1 h4 {
+    font-size: 1rem;
+    color: #03A84E;
+}
+
+div.text h4 {
+    font-size: 0.8rem;
+    color: #03A84E;
+    text-align: center;
+}
+
+div.image-container {
+    display: flex;
+}
+
+div.image-text p {
+    color: #4B6358;
+    font-size: 0.8rem;
+}
+
+div.image-text h6 {
+    color: #0F241B;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+div.hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+   div.back {
+    display: none;
+   } 
+
+   div.box, div.food-container {
+       padding-left: 2rem;
+       padding-right: 2rem;
+   }
+
+   div.green-container {
+       height: 120px;
+   }
+}
