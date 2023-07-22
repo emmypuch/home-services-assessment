@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Rubik", sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -464,6 +463,10 @@ footer a {
         padding-right: 2rem;
     }
 
+    div.yellow-box1 {
+        height: 120px;
+    }
+
     div.frequency-container {
         padding-left: 2rem;
         padding-right: 2rem;
@@ -476,5 +479,6 @@ footer a {
     div.footer-container {
         padding-left: 2rem;
         padding-right: 2rem;
+        padding-bottom: 30px;
     }
 }
