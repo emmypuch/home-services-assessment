@@ -221,7 +221,6 @@ div.house-icon_container {
     justify-content: space-between;
     align-items: center;
     margin-top: 60px;
-    padding-bottom: 5px;
 }
 
 div.house-icon_container ul li{
@@ -268,5 +267,38 @@ div.hamburger {
         align-items: center;
         padding-right: 1rem;
         padding-left: 1rem;
+   }
+
+   div.hamburger {
+       display: block;
+       height: 15px;
+       width: 25px;
+       position: fixed;
+       top: 17px;
+       left: 20px;
+       z-index: 2;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+   }
+
+   div.hamburger .line {
+       display: block;
+       height: 2px;
+       width: 100%;
+       border-radius: 10px;
+       background: #3f7270;
+   }
+
+   div.hamburger .line1 {
+       width: 17px;
+   }
+
+   div.hamburger .line2 {
+       width: 17px;
+   }
+
+   div.hamburger .line3 {
+       width: 17px;
    }
 }
