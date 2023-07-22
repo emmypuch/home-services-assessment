@@ -20,7 +20,7 @@ h2 {
 }
 
 div.progress-bar_section {
-    padding: 2.5rem;
+    padding: 4rem;
 }
 
 div.progress-section {
@@ -91,8 +91,8 @@ div.progress-step::after {
 
 /* Container Section */
 div.container-heading {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 div.container-heading h1{
@@ -105,11 +105,14 @@ div.container-heading p {
     font-size: 1rem;
     color: #4B6358;
 }
-/* Plan Section */
+/* Plan Details Section */
 div.plan-heading {
     display: flex;
     justify-content: space-between;
-    padding: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
 }
 
 div.plan-heading h5 {
@@ -124,10 +127,98 @@ div.plan-heading a {
 }
 
 div.line {
-    /* width: 3px; */
     height: 3px;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    background-color: #CBD8D2;
+}
+
+/* Food Plan Section  */
+div.food-plan_container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-top: 30px;
+}
+
+div.details {
+    background-color: #E9FBF2;
+    border-radius: 10px;
+    height: 100px;
+    padding: 10px 30px;
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+}
+
+div.details1 {
+    background-color: #E5E9FC;
+    border-radius: 10px;
+    height: 100px;
+    padding: 10px 30px;
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+}
+
+div.details2 {
+    background-color: #FFF3DF;
+    border-radius: 10px;
+    height: 100px;
+    padding: 10px 30px;
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+}
+
+div.details3 {
+    background-color: #FBE7F2;
+    border-radius: 10px;
+    height: 100px;
+    padding: 10px 30px;
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+}
+
+div.icon, div.icon-2 {
+    display: flex;
+}
+
+div.icon h4{
+    margin-left: 10px;
+    font-size: 1rem;
+    color: #0F241B;
+}
+
+div.icon p {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #4B6358;
+}
+
+div.icon img {
+    margin-top: 1px;
+}
+
+div.icon-2 {
+    margin-bottom: 2rem;
+}
+
+div.icon-2 h4 {
+    color: #4B6358;
+    font-size: 1rem;
+}
+
+div.icon-2 img {
+    margin-left: 8px;
+    margin-top: 1.2px;
+}
+
+div.line1 {
+    height: 3px;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     background-color: #CBD8D2;
 }
 
@@ -140,6 +231,20 @@ div.line {
         margin-left: 10px;
     }
 
+    div.add {
+        margin-left: 6rem;
+    }
+
+    div.plan-heading h5 {
+        font-size: 1rem;
+    }
+    
+    div.plan-heading a {
+            
+        font-size: 0.9rem;
+        
+    }
+
     div.container-heading h1 {
         font-size: 1.8rem;
     }
@@ -147,4 +252,25 @@ div.line {
     div.container-heading p {
         font-size: 0.9rem;
     }
+
+    div.container-heading {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    div.plan-heading {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    div.line {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    div.food-plan_container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
 }
