@@ -141,6 +141,8 @@ h3 {
     color: #0F241B;
     font-size: 1.3rem;
     font-family: PT Serif;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 p {
@@ -185,5 +187,10 @@ div.frequency-container a {
 
     p {
         padding: 2rem;
+    }
+
+    h3 {
+        padding-right: 1rem;
+        padding-left: 1rem;
     }
 }

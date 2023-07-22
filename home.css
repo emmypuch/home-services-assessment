@@ -221,7 +221,7 @@ div.house-icon_container {
     justify-content: space-between;
     align-items: center;
     margin-top: 60px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 div.house-icon_container ul li{
@@ -248,7 +248,7 @@ div.hamburger {
     display: none;
    } 
 
-   div.box, div.food-container, div.house-container, div.footer-section, div.house-icon_container {
+   div.box, div.food-container, div.house-container, div.footer-section, div.house-icon_container, div.navLinks {
        padding-left: 1rem;
        padding-right: 1rem;
    }
@@ -259,5 +259,14 @@ div.hamburger {
 
    div.par p{
     font-size: 0.8rem;
+   }
+
+   div.header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 1rem;
+        padding-left: 1rem;
    }
 }
