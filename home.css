@@ -37,7 +37,7 @@ div.tab-container {
 
 .tabs {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     position: relative;
     overflow: hidden;
     margin: 0;
@@ -70,9 +70,7 @@ div.tab-container {
 .tabs :nth-child(1) a{
     color: #0F241B;
     background-color: #fff;
-    padding: 5px 10px;
     border-radius: 10px;
-    /* width: 100%; */
     width: 137px;
     height: 42px;
     text-align: center;
@@ -193,7 +191,7 @@ div.image-text h6 {
 div.line {
     height: 1px;
     background-color: #BDEECD;
-    margin-top: 7px;
+    margin-top: 15px;
 }
 
 div.clock-text {
@@ -250,7 +248,7 @@ div.text1 h4 {
 
 div.line1 {
     background-color: #FFDA9F;
-    margin-top: 7px;
+    margin-top: 15px;
     height: 1px;
 }
 
@@ -305,6 +303,10 @@ div.hamburger {
     font-size: 0.8rem;
    }
 
+   div.green-container p {
+       font-size: 0.8rem;
+   }
+
    div.header {
         display: flex;
         flex-direction: column;
@@ -325,6 +327,10 @@ div.hamburger {
        display: flex;
        flex-direction: column;
        justify-content: space-between;
+   }
+
+   div.house-icon_container ul li a h6 {
+       font-size: 0.9rem;
    }
 
    div.hamburger .line {
