@@ -490,3 +490,12 @@ footer a {
         font-size: 0.9rem;
     }
 }
+
+@media screen and (max-width: 375px) {
+    div.food-plan_container, div.container-heading, div.plan-heading, div.frequency-container, div.footer-container, div.discount-container,
+        div.lists-container, div.choose, div.progress-bar_section,
+        div.choose1 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
