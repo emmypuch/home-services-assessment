@@ -1,17 +1,25 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const faqItems = document.querySelectorAll(".faq-item");
+// $(document).ready(function () {
+//   (function ($) {
+//     $(".tab-container ul.tabs")
+//       .addClass("active")
+//       .find("> li:eq(0)")
+//       .addClass("current");
+//     $(".tab-container ul.tabs li a").click(function (g) {
+//       var tab = $(this).closest(".tab"),
+//         index = $(this).closest("li").index();
+//       tab.find("ul.tabs > li").removeClass("current");
+//       $(this).closest("li").addClass("current");
 
-  faqItems.forEach((item) => {
-    item.addEventListener("click", function () {
-      // Toggle the "active" class to show/hide the answer
-      this.classList.toggle("active");
-
-      const answer = this.querySelector(".answer");
-      if (this.classList.contains("active")) {
-        answer.style.display = "block";
-      } else {
-        answer.style.display = "none";
-      }
-    });
-  });
-});
+//       tab
+//         .find(".tab-content")
+//         .find("div.tab-item")
+//         .not("div.tab-item:eq(" + index + ")")
+//         .slideUp();
+//       tab
+//         .find(".tab-content")
+//         .find("div.tab-item:eq(" + index + ")")
+//         .slideDown();
+//       g.preventDefault();
+//     });
+//   })(jQuery);
+// });
