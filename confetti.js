@@ -1,6 +1,14 @@
 function confettiFalling() {
   var box = document.getElementById("box");
-  var colors = ["red", "green", "blue", "yellow", "purple", "orange", "pink"];
+  var colors = [
+    "skyblue",
+    "green",
+    "blue",
+    "yellow",
+    "mauve",
+    "orange",
+    "fuchsia",
+  ];
 
   for (var i = 0; i < 1000; i++) {
     // Create 1000 DIV elements for confetti

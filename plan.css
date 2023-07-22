@@ -464,7 +464,11 @@ footer a {
     }
 
     div.yellow-box1 {
-        height: 120px;
+        height: 130px;
+    }
+
+    div.yellow-box1 p {
+        font-size: 0.9rem;
     }
 
     div.frequency-container {
@@ -480,5 +484,9 @@ footer a {
         padding-left: 2rem;
         padding-right: 2rem;
         padding-bottom: 30px;
+    }
+
+    footer {
+        font-size: 0.9rem;
     }
 }
