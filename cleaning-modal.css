@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Cerebri Sans;
+    line-height: 24px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0F241B;
+}
+
+div.modal-container {
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.modal-container_box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 450px;
+}
+
+div.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.flex p {
+    color: #4B6358;
+    font-size: 12px;
+}
+
+div.order-flex {
+    display: flex;
+    margin-top: 20px;
+}
+
+div.order-flex img {
+    width: 40px;
+}
+
+div.order-flex p {
+    color: #4B6358;
+    font-size: 14px;
+}
+
+div.order-flex h2 {
+    color: #0F241B;
+    font-size: 1.1rem;
+}
+
+div.delivery-box {
+    border-radius: 10px;
+    border: 1px dashed #CBD8D2;
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+
+div.delivery-box p {
+    color: #4B6358;
+    font-size: 14px;
+}
+
+div.delivery-box p:nth-child(2) {
+    color: #0F241B;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+div.dotted-line {
+    height: 1px;
+    border: 1px dashed #CBD8D2;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+div.status-box {
+    display: flex;
+    margin-top: 30px;
+}
+
+div.status-box1 {
+    display: flex;
+    margin-top: 0px;
+}
+
+div.img2,
+div.img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.status-content1,
+div.status-content2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.status-content1 h3 {
+    color: #0F241B;
+    font-size: 1.1rem;
+}
+
+div.time1 {
+    margin: 0;
+}
+
+div.time1 p {
+    color: #4B6358;
+    font-size: 0.8rem;
+}
+
+div.status-content1 p.text {
+    color: #03A84E;
+    font-size: 0.9rem;
+    margin-top: 7px;
+}
+
+div.status-content2 {
+    margin-top: 24px;
+    padding-bottom: 10px;
+}
+
+div.status-content2 h3 {
+    color: #0F241B;
+    font-size: 1.1rem;
+}
+
+div.time1 {
+    margin: 0;
+}
+
+div.time1 p {
+    color: #4B6358;
+    font-size: 0.8rem;
+}
+
+div.status-content2 p.text1 {
+    color: #4B6358;
+    font-size: 0.9rem;
+    margin-top: 7px;
+}
+
+@media screen and (max-width: 768px) {
+    div.modal-container {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
