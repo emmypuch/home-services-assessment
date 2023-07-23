@@ -152,19 +152,20 @@ div.icon-2 {
     padding: 5px 10px;
 }
 
-div.text {
+/* div.text {
     margin-top: 3px;
-}
+} */
 
 div.text1 h4 {
     font-size: 1rem;
     color: #03A84E;
 }
 
-div.text h4 {
+div.text a {
     font-size: 0.8rem;
     color: #03A84E;
     text-align: center;
+    text-decoration: none;
 }
 
 div.image-container, div.clock-container {
@@ -240,7 +241,8 @@ div.text2 h4 {
     color: #FF9D00;
 }
 
-div.text1 h4 {
+div.text1 a {
+    text-decoration: none;
     font-size: 0.8rem;
     color: #FF9D00;
     text-align: center;
