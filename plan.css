@@ -20,7 +20,7 @@ div#wrapper {
 
 h2 {
     color: #0F241B;
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: center;
 }
 
@@ -402,6 +402,7 @@ footer a {
 
     h2 {
         margin-left: 10px;
+        font-size: 1rem;
     }
 
     div.add {
