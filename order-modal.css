@@ -20,7 +20,7 @@ body {
 div.modal-container {
     padding-right: 4rem;
     padding-left: 4rem;
-    padding-top: 5rem;
+    padding-top: 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,15 +56,14 @@ div.order-flex p {
 
 div.order-flex h2{
     color: #0F241B;
-    font-size: 1.2rem;
-    margin-top: 5px;
+    font-size: 1.1rem;
+    margin-top: 4px;
 }
 
 div.delivery-box {
     border-radius: 10px;
     border: 1px dashed #CBD8D2;
-    padding: 10px 30px;
-    background-color: #fff;
+    padding: 20px 30px;
     margin-top: 30px;
 }
 
@@ -185,5 +184,9 @@ div.status-content2 p.text1 {
     div.modal-container {
         padding-right: 1rem;
         padding-left: 1rem;
+    }
+
+    div.delivery-box p:nth-child(2) {
+        font-size: 0.9rem;
     }
 }
