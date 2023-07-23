@@ -1,10 +1,12 @@
 // // Function to show the modal with the item and status information
 // function showModalWithContent(item, status) {
-//   const modalContent = document.querySelector(".modal-content");
+//   const modalContent = document.querySelector(".modal-container_box");
 //   modalContent.innerHTML = `
 //         <h2>Order Status</h2>
 //         <p>Your ${item} order is ${status}.</p>
-//         <button id="close-modal">Close</button>
+//         <a href="#" id="close-modal">
+//         <img src="images/Close.svg" alt="Close">
+//         </a>
 //     `;
 //   modal.style.display = "flex";
 // }
