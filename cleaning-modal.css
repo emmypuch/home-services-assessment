@@ -18,9 +18,7 @@ body {
 }
 
 div.modal-container {
-    padding-right: 4rem;
-    padding-left: 4rem;
-    padding-top: 6rem;
+    padding: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,7 +158,22 @@ div.status-content2 p.text1 {
 
 @media screen and (max-width: 768px) {
     div.modal-container {
-        padding-right: 1rem;
-        padding-left: 1rem;
+        padding: 1rem;
+    }
+
+    div.status-content1 h3 {
+        font-size: 1rem;
+    } 
+    
+    div.time1 p {
+        font-size: 0.7rem;
+    }
+
+    div.status-content2 h3 {
+        font-size: 1rem;
+    }
+
+    div.status-content2 p.text1 {
+        font-size: 0.8rem;
     }
 }
