@@ -142,7 +142,7 @@ div.status-content2 h3 {
 }
 
 div.time1 {
-    margin: 0;
+    margin-top: 20px;
 }
 
 div.time1 p {
@@ -154,6 +154,10 @@ div.status-content2 p.text1 {
     color: #4B6358;
     font-size: 0.9rem;
     margin-top: 7px;
+}
+
+div.margin h3{
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -175,5 +179,13 @@ div.status-content2 p.text1 {
 
     div.status-content2 p.text1 {
         font-size: 0.8rem;
+    }
+
+    div.margin h3 {
+        margin-top: 8px;
+    }
+
+    div.time1 {
+        margin-top: 8px;
     }
 }
