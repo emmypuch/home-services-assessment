@@ -11,7 +11,7 @@ function confettiFalling() {
   ];
 
   for (var i = 0; i < 1000; i++) {
-    // Create 1000 DIV elements for confetti
+    // 1000 DIV elements for confetti
     var div = document.createElement("div");
     div.classList.add("confetti");
     box.appendChild(div);
