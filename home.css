@@ -31,6 +31,12 @@ div.tab-container {
     margin-top: 30px;
 }
 
+div.tab-content_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .tabs {
     display: flex;
     justify-content: space-between;
@@ -40,7 +46,8 @@ div.tab-container {
     width: 100%;
     background-color: #F0F4F2;
     border-radius: 8px;
-    padding: 10px;
+    padding: 6px;
+    max-width: 80vw;
 }
 
 .tabs li {
@@ -347,5 +354,9 @@ div.hamburger {
        display: flex;
        flex-direction: column;
        justify-content: space-between;
+   }
+
+   .tabs {
+       max-width: 90vw;
    }
 }
