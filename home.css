@@ -5,8 +5,6 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: Cerebri Sans;
-
 }
 
 html {
@@ -17,22 +15,20 @@ div#navLinks {
     padding-left: 4rem;
     padding-right: 4rem;
     padding-top: 0.8rem;
-}
-
-.navbar{
     display: flex;
-    justify-content: flex-end;
-    gap: 20px;
+    justify-content: space-between;
 }
 
 h2 {
-    font-size: 1.3rem;
+    font-size: 18px;
     color: #0F241B;
+    line-height: 28px;
+    font-weight: 700;
     font-family: PT Serif;
 }
 
 div.tab-container {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .tabs {
@@ -43,8 +39,8 @@ div.tab-container {
     margin: 0;
     width: 100%;
     background-color: #F0F4F2;
-    border-radius: 10px;
-    padding: 10px 20px;
+    border-radius: 8px;
+    padding: 10px;
 }
 
 .tabs li {
@@ -56,8 +52,8 @@ div.tab-container {
 }
 
 .tabs a {
-    font-weight: 600;
-    font-size: 1rem;
+    font-weight: 500;
+    font-size: 14px;
     display: block;
     outline: none;
     padding: 0 20px;
@@ -71,14 +67,23 @@ div.tab-container {
     color: #0F241B;
     background-color: #fff;
     border-radius: 10px;
+    padding: 10px 40px;
     width: 137px;
     height: 42px;
     text-align: center;
+    font-weight: 500;
+    font-family: Cerebri Sans;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .tabs :nth-child(2) a {
     color: #4B6358;
     text-align: center;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: Cerebri Sans;
 }
 
 .tabs_item:first-child {
@@ -114,15 +119,20 @@ div.green-container {
 
 div.green-container h3 {
     color: #fff;
-    font-size: 1.2rem;
-    margin-top: 10px;
-    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Cerebri Sans;
+    margin-top: 7px;
+    font-weight: 500;
 }
 
 div.green-container p {
-    font-size: 0.9rem;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
     color: #fff;
-    margin-top: 10px;
+    margin-top: 7px;
+    font-family: Cerebri Sans;
 }
 
 /* Food */
@@ -152,17 +162,19 @@ div.icon-2 {
     padding: 5px 10px;
 }
 
-/* div.text {
-    margin-top: 3px;
-} */
-
 div.text1 h4 {
-    font-size: 1rem;
+    font-size: 16px;
+    font-family: Cerebri Sans;
+    font-weight: 400;
+    line-height: 24px;
     color: #03A84E;
 }
 
 div.text a {
-    font-size: 0.8rem;
+    font-family: Cerebri Sans;
+    font-weight: 400;
+    line-height: 16px;
+    font-size: 12px;
     color: #03A84E;
     text-align: center;
     text-decoration: none;
@@ -180,13 +192,19 @@ div.image-text {
 
 div.image-text p {
     color: #4B6358;
-    font-size: 0.8rem;
+    font-size: 14px;
+    font-family: Cerebri Sans;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 div.image-text h6 {
     color: #0F241B;
-    font-size: 1rem;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
     margin-top: 5px;
+    font-family: Cerebri Sans;
 }
 
 div.line {
@@ -201,7 +219,10 @@ div.clock-text {
 }
 
 div.clock-text h6 {
-    font-size: 0.8rem;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    font-family: Cerebri Sans;
     color: #1D352A;
 }
 
@@ -237,13 +258,19 @@ div.text1 {
 }
 
 div.text2 h4 {
-    font-size: 1rem;
+    font-size: 16px;
     color: #FF9D00;
+    font-family: Cerebri Sans;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 div.text1 a {
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: Cerebri Sans;
     color: #FF9D00;
     text-align: center;
 }
@@ -279,8 +306,11 @@ div.house-icon_container ul li a{
 
 div.house-icon_container ul li a h6{
     color: #8AA398;
-    font-size: 1rem;
+    font-size: 12px;
     margin-top: 7px;
+    font-family: Cerebri Sans;
+    font-weight: 400;
+    line-height: 16px;
 }
 
 div.hamburger {
@@ -295,18 +325,6 @@ div.hamburger {
    div.box, div.food-container, div.house-container, div.footer-section, div.house-icon_container, div.navLinks, div.tab-container {
        padding-left: 1rem;
        padding-right: 1rem;
-   }
-
-   div.image-text h6, div.text2 h4 {
-       font-size: 0.9rem;
-   }
-
-   div.par p{
-    font-size: 0.8rem;
-   }
-
-   div.green-container p {
-       font-size: 0.8rem;
    }
 
    div.header {
@@ -329,33 +347,5 @@ div.hamburger {
        display: flex;
        flex-direction: column;
        justify-content: space-between;
-   }
-
-   div.house-icon_container ul li a h6 {
-       font-size: 0.9rem;
-   }
-
-   div.hamburger .line {
-       display: block;
-       height: 2px;
-       width: 100%;
-       border-radius: 10px;
-       background: #3f7270;
-   }
-
-   div.hamburger .line1 {
-       width: 17px;
-   }
-
-   div.hamburger .line2 {
-       width: 17px;
-   }
-
-   div.hamburger .line3 {
-       width: 17px;
-   }
-
-   h2 {
-       text-align: center;
    }
 }

@@ -1,5 +1,4 @@
 * {
-    font-family: Cerebri Sans;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -139,7 +138,9 @@ h3 {
     text-align: center;
     margin-top: 30px;
     color: #0F241B;
-    font-size: 1.3rem;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
     font-family: PT Serif;
     padding-right: 2rem;
     padding-left: 2rem;
@@ -147,9 +148,12 @@ h3 {
 
 p {
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 16px;
     color: #1D352A;
     margin-top: 20px;
+    font-weight: 400;
+    font-family: Cerebri Sans;
+    line-height: 24px;
 }
 
 div.frequency-container {
@@ -168,7 +172,10 @@ div.frequency-container a {
     outline: none;
     border-radius: 50px;
     text-align: center;
-    font-size: 1rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: Cerebri Sans;
 }
 
 @media screen and (max-width: 768px) {
