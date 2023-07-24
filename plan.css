@@ -1,12 +1,10 @@
 * {
-    /* font-family: Cerebri Sans; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    line-height: 24px;
 }
 
 html {
@@ -63,8 +61,6 @@ div.progress-step {
     height: 2rem;
     border-radius: 50%;
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 
 div.progress-step::before {
@@ -107,7 +103,6 @@ div.progress-step::after {
 div.container-heading {
     padding-left: 4rem;
     padding-right: 4rem;
-    /* padding-top: 10px; */
 }
 
 div.container-heading h1{
@@ -212,6 +207,7 @@ div.icon, div.icon-2 {
 div.icon h4{
     font-size: 16px;
     font-weight: 400;
+    line-height: 20px;
     color: #0F241B;
     font-family: Cerebri Sans;
 }
@@ -237,7 +233,8 @@ div.icon-2 h4 {
     color: #4B6358;
     font-size: 14px;
     font-weight: 400;
-    line-height: 20px;font-family: Cerebri Sans;
+    line-height: 20px;
+    font-family: Cerebri Sans;
 }
 
 div.line1 {

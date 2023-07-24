@@ -6,7 +6,6 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: Cerebri Sans;
-    line-height: 24px;
 }
 
 html {
@@ -42,6 +41,8 @@ div.flex {
 div.flex p {
     color: #4B6358;
     font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
 }
 
 div.order-flex {
@@ -51,31 +52,39 @@ div.order-flex {
 
 div.order-flex p {
     color: #4B6358;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
 }
 
 div.order-flex h2{
     color: #0F241B;
-    font-size: 1.1rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
     margin-top: 4px;
 }
 
 div.delivery-box {
-    border-radius: 10px;
+    border-radius: 8px;
     border: 1px dashed #CBD8D2;
-    padding: 20px 30px;
+    padding: 15px;
     margin-top: 30px;
 }
 
 div.delivery-box p {
     color: #4B6358;
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
 }
 
 div.delivery-box p:nth-child(2) {
     color: #0F241B;
-    font-size: 1rem;
-    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 7px;
 }
 
 div.status-box {
@@ -96,7 +105,9 @@ div.status-content1, div.status-content2 {
 
 div.status-content1 h3 {
     color: #0F241B;
-    font-size: 1.2rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 div.time1 {
@@ -105,13 +116,17 @@ div.time1 {
 
 div.time1 p{
    color: #4B6358;
-   font-size: 0.8rem;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 16px;
 }
 
 div.status-content1 p.text {
     color: #4B6358;
-    font-size: 0.9rem;
-    margin-top: 7px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 5px;
 }
 
 div.status-content2 {
@@ -121,7 +136,9 @@ div.status-content2 {
 
 div.status-content2 h3 {
     color: #0F241B;
-    font-size: 1.2rem;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
 }
 
 div.time1 {
@@ -130,13 +147,17 @@ div.time1 {
 
 div.time1 p {
     color: #4B6358;
-    font-size: 0.8rem;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
 }
 
 div.status-content2 p.text1 {
     color: #4B6358;
-    font-size: 0.9rem;
-    margin-top: 7px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 5px;
 }
 
 .modal {
@@ -170,23 +191,9 @@ div.status-content2 p.text1 {
     transform: scale(1);
 }
 
-/* h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-} */
-
-/* p {
-    font-size: 1rem;
-    margin-bottom: 20px;
-} */
-
 @media screen and (max-width: 768px) {
     div.modal-container {
         padding-right: 1rem;
         padding-left: 1rem;
-    }
-
-    div.delivery-box p:nth-child(2) {
-        font-size: 0.9rem;
     }
 }
