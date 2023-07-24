@@ -445,6 +445,49 @@ footer a {
     color: #03A84E; 
 }
 
+input {
+    margin: 10px;
+}
+
+.hidden {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.additional-info {
+    margin-top: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.additional-info p {
+    margin: 10px 0;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.additional-info:not(.hidden) {
+    max-height: 100px;
+}
+
+.icon-2 {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon-2 img {
+    margin-top: 5px;
+    transition: transform 0.3s ease-out;
+}
+
+.additional-info:not(.hidden)~.icon-2 img {
+    transform: rotate(180deg);
+}
+
 @media screen and (max-width: 768px) {
     div.progress-bar_section {
         padding-left: 2rem;
@@ -514,5 +557,24 @@ footer a {
         div.choose1 {
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    div#wrapper {
+        padding: 1rem;
+    }
+
+    div.plan-heading a {
+        font-size: 12px;
+    }
+
+    div.plan-heading h5 {
+        font-size: 14px;
+    }
+
+    div.discount-btn button {
+        padding: 10px;
+        font-size: 12px;
     }
 }

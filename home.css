@@ -364,3 +364,31 @@ a#call {
        max-width: 90vw;
    }
 }
+
+@media screen and (max-width: 320px) {
+    div.green-container h3 {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    div.green-container p {
+        font-size: 12px;
+        margin-top: 4px;
+    }
+
+    div.wrapper, div.wrapper1 {
+        padding: 10px;
+    }
+
+    div.text1 h4, div.text2 h4 {
+        font-size: 14px;
+    }
+
+    div.text a, div.text1 a {
+        font-size: 10px;
+    }
+
+    div.icon-3 {
+        padding: 7px;
+    }
+}

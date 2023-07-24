@@ -60,18 +60,25 @@
                     <h4>Food</h4>
                     <p>&#8358;27,000</p>
                 </div>
-
             </div>
             <div class="icon-2">
-                <div>
-                    <h4>Expand details</h4>
+                <div class="expandBtn">
+                    <h4>
+                        <a href="#" class="expandLink" style="text-decoration: none;">
+                            <h4>Expand details</h4>
+                        </a>
+                    </h4>
                 </div>
                 <div>
                     <img src="images/Arrow.svg" alt="Down Arrow">
                 </div>
             </div>
         </div>
+        <div class="additional-info hidden">
+            <p>This is the expanded details section for Food.</p>
+        </div>
     </div>
+
     <!-- Laundry Plan Section -->
     <div class="food-plan_container">
         <div class="details1">
@@ -83,18 +90,25 @@
                     <h4>Laundry</h4>
                     <p>&#8358;27,000</p>
                 </div>
-
             </div>
             <div class="icon-2">
-                <div>
-                    <h4>Expand details</h4>
+                <div class="expandBtn">
+                    <h4>
+                        <a href="#" class="expandLink" style="text-decoration: none;">
+                            <h4>Expand details</h4>
+                        </a>
+                    </h4>
                 </div>
                 <div>
                     <img src="images/Arrow.svg" alt="Down Arrow">
                 </div>
             </div>
         </div>
+        <div class="additional-info hidden">
+            <p>This is the expanded details section for Laundry.</p>
+        </div>
     </div>
+
     <!-- Cleaning Plan Section -->
     <div class="food-plan_container">
         <div class="details2">
@@ -106,18 +120,25 @@
                     <h4>Cleaning</h4>
                     <p>&#8358;27,000</p>
                 </div>
-
             </div>
             <div class="icon-2">
-                <div>
-                    <h4>Expand details</h4>
+                <div class="expandBtn">
+                    <h4>
+                        <a href="#" class="expandLink" style="text-decoration: none;">
+                            <h4>Expand details</h4>
+                        </a>
+                    </h4>
                 </div>
                 <div>
                     <img src="images/Arrow.svg" alt="Down Arrow">
                 </div>
             </div>
         </div>
+        <div class="additional-info hidden">
+            <p>This is the expanded details section for Cleaning.</p>
+        </div>
     </div>
+
     <!-- Beauty Plan Section -->
     <div class="food-plan_container">
         <div class="details3">
@@ -129,18 +150,46 @@
                     <h4>Beauty</h4>
                     <p>&#8358;27,000</p>
                 </div>
-
             </div>
             <div class="icon-2">
-                <div>
-                    <h4>Expand details</h4>
+                <div class="expandBtn">
+                    <h4>
+                        <a href="#" class="expandLink" style="text-decoration: none;">
+                            <h4>Expand details</h4>
+                        </a>
+                    </h4>
                 </div>
                 <div>
                     <img src="images/Arrow.svg" alt="Down Arrow">
                 </div>
             </div>
         </div>
+        <div class="additional-info hidden">
+            <p>This is the expanded details section for Beauty.</p>
+        </div>
     </div>
+    <!-- Expand Details End -->
+    <div class="details3">
+        <div class="icon">
+            <div style="margin-right: 10px;">
+                <img src="images/beauty.svg" alt="Beauty">
+            </div>
+            <div>
+                <h4>Beauty</h4>
+                <p>&#8358;27,000</p>
+            </div>
+
+        </div>
+        <div class="icon-2">
+            <div>
+                <h4>Expand details</h4>
+            </div>
+            <div>
+                <img src="images/Arrow.svg" alt="Down Arrow">
+            </div>
+        </div>
+    </div>
+    </div> -->
     <div class="line1"></div>
     <!-- Date Section -->
     <div class="plan-heading">
@@ -157,9 +206,12 @@
                 <img src="images/Alert.svg" alt="Alert">
             </div>
             <div>
-                <p>
+                <p id="date-toggle">
                     Choose your start date to pay.
                 </p>
+                <div id="date-input-container" style="display: none;">
+                    <input type="date" id="start-date">
+                </div>
             </div>
         </div>
     </div>
@@ -168,13 +220,13 @@
     <div class="discount-container">
         <h5 class="discount-header">Discount Code</h5>
         <div class="discount-flex">
-            <div>
-                <p>247LOVE4U</p>
+            <div id="codeContainer">
+                <p id="code">247LOVE4U</p>
                 <div class="line2"></div>
-                <p class="code">Code successfully applied.</p>
+                <p class="code hidden">Code successfully applied.</p>
             </div>
             <div class="discount-btn">
-                <button>Remove code</button>
+                <button id="removeCodeBtn">Remove code</button>
             </div>
         </div>
     </div>
@@ -234,7 +286,7 @@
         </footer>
     </div>
 
-    <!-- <script src="main.js"></script> -->
+    <script src="plan.js"></script>
 </body>
 
 </html>
