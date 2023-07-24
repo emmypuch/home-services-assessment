@@ -28,6 +28,7 @@ div#wrapper h1 {
     line-height: 36px;
     text-align: center;
     font-family: PT Serif;
+    font-weight: 700;
 }
 
 div#wrapper div.link {
@@ -50,6 +51,7 @@ div#wrapper div.link a {
     font-family: Cerebri Sans;
     width: 279px;
     height: 48px;
+    font-weight: 400;
 }
 
 @media screen and (max-width: 768px) {

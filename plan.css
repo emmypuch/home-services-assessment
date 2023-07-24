@@ -1,11 +1,12 @@
 * {
-    font-family: Cerebri Sans;
+    /* font-family: Cerebri Sans; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    line-height: 24px;
 }
 
 html {
@@ -13,19 +14,23 @@ html {
 }
 
 div#wrapper {
-    padding: 2rem;
+    padding: 4rem;
     display: grid;
     grid-template-columns: 10% 80%;
 }
 
 h2 {
     color: #0F241B;
-    font-size: 1.3rem;
+    font-size: 16px;
     text-align: center;
+    font-family: Cerebri Sans;
+    font-weight: 400;
 }
 
 div.progress-bar_section {
-    padding: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
 }
 
 div.progress-section {
@@ -33,7 +38,7 @@ div.progress-section {
     display: flex;
     justify-content: space-between;
     counter-reset: step;
-    margin: 2rem 0 4rem;
+    margin: 1rem 0 4rem;
 }
 
 div.progress-section::before, div.progress {
@@ -58,9 +63,8 @@ div.progress-step {
     height: 2rem;
     border-radius: 50%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    /* counter-reset: step; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 div.progress-step::before {
@@ -70,15 +74,18 @@ div.progress-step::before {
     justify-content: center;
     align-items: center;
     color: #cfeddc;
-    font-size: 0.8rem;
+    font-size: 12px;
+    font-family: Cerebri Sans;
+    font-weight: 400;
 }
 
 div.progress-step::after {
     content: attr(data-title);
     position: absolute;
     top: calc(100% + 0.5rem);
-    font-size: 0.8rem;
+    font-size: 12px;
     color: #0F241B;
+    font-family: Cerebri Sans;
 }
 
 .progress-step-active {
@@ -92,24 +99,30 @@ div.progress-step::after {
 .progress-step-inactive {
     background-color: #dbebe2;
     color: #0F241B;
+    font-size: 12px;
+    text-align: center;
 }
 
 /* Container Section */
 div.container-heading {
     padding-left: 4rem;
     padding-right: 4rem;
+    /* padding-top: 10px; */
 }
 
 div.container-heading h1{
-    font-size: 2rem;
+    font-size: 20px;
     color: #0F241B;
     font-family: PT Serif;
+    font-weight: 700;
 }
 
 div.container-heading p {
     margin-top: 10px;
-    font-size: 1rem;
+    font-weight: 400;
+    font-size: 16px;
     color: #4B6358;
+    font-family: Cerebri Sans;
 }
 /* Plan Details Section */
 div.plan-heading {
@@ -123,13 +136,19 @@ div.plan-heading {
 
 div.plan-heading h5 {
     color: #0F241B;
-    font-size: 1.1rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: Cerebri Sans;
 }
 
 div.plan-heading a {
     color: #03A84E;
-    font-size: 1rem;
+    font-size: 16px;
     text-decoration: none;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: Cerebri Sans;
 }
 
 div.line {
@@ -150,7 +169,7 @@ div.details {
     background-color: #E9FBF2;
     border-radius: 10px;
     height: 100px;
-    padding: 10px 30px;
+    padding: 10px 20px;
     display: flex;
     place-items: center;
     justify-content: space-between;
@@ -160,7 +179,7 @@ div.details1 {
     background-color: #E5E9FC;
     border-radius: 10px;
     height: 100px;
-    padding: 10px 30px;
+    padding: 10px 20px;
     display: flex;
     place-items: center;
     justify-content: space-between;
@@ -170,7 +189,7 @@ div.details2 {
     background-color: #FFF3DF;
     border-radius: 10px;
     height: 100px;
-    padding: 10px 30px;
+    padding: 10px 20px;
     display: flex;
     place-items: center;
     justify-content: space-between;
@@ -180,7 +199,7 @@ div.details3 {
     background-color: #FBE7F2;
     border-radius: 10px;
     height: 100px;
-    padding: 10px 30px;
+    padding: 10px 20px;
     display: flex;
     place-items: center;
     justify-content: space-between;
@@ -191,15 +210,19 @@ div.icon, div.icon-2 {
 }
 
 div.icon h4{
-    margin-left: 10px;
-    font-size: 1rem;
+    font-size: 16px;
+    font-weight: 400;
     color: #0F241B;
+    font-family: Cerebri Sans;
 }
 
 div.icon p {
-    margin-top: 15px;
-    font-size: 1rem;
+    margin-top: 7px;
+    font-size: 14px;
     color: #4B6358;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: Cerebri Sans;
 }
 
 div.icon img {
@@ -212,12 +235,9 @@ div.icon-2 {
 
 div.icon-2 h4 {
     color: #4B6358;
-    font-size: 1rem;
-}
-
-div.icon-2 img {
-    margin-left: 8px;
-    margin-top: 1.2px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;font-family: Cerebri Sans;
 }
 
 div.line1 {
@@ -236,17 +256,19 @@ div.choose {
 
 div.yellow-box {
     background-color: #FFFDF5;
-    padding: 10px 30px;
-    height: 90px;
-    border-radius: 10px;
+    padding: 20px;
+    border-radius: 8px;
     border: 1px solid #FFEBB2;
     display: flex;
 }
 
 div.yellow-box p {
     color: #0F241B;
-    font-size: 1rem;
-    margin-left: 10px;  
+    line-height: 20px;
+    font-size: 14px;
+    margin-left: 10px; 
+    font-weight: 500; 
+    font-family: Cerebri Sans;
 }
 
 /* Discount Section */
@@ -263,7 +285,10 @@ div.discount-header {
 
 h5.discount-header{
     color: #0F241B;
-    font-size: 1rem;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Cerebri Sans;
+    line-height: 24px;
 }
 
 div.discount-flex {
@@ -274,18 +299,23 @@ div.discount-flex {
 }
 
 div.discount-flex p {
-    font-size: 0.9rem;
-    font-weight: normal;
+    font-size: 14px;
+    font-family: Cerebri Sans;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 div.discount-btn button {
     background-color: transparent;
     border: 1px solid #E2E9E6;
-    padding: 14px;
+    padding: 10px 20px;
     border-radius: 32px;
     color: #0F241B;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 14px;
+    font-family: Cerebri Sans;
+    font-weight: 400;
+    line-height: 20px;
     cursor: pointer;
     outline: none;
 }
@@ -300,6 +330,9 @@ p.code {
     font-size: 12px;
     color: #03A84E;
     margin-top: 7px;
+    line-height: 16px;
+    font-family: Cerebri Sans;
+    font-weight: 400;
 }
 
 /* Total Section */
@@ -311,19 +344,28 @@ div.lists1, div.lists2, div.lists3 {
 
 ul li {
     list-style: none;
-    margin-top: 30px;
-    font-size: 1rem;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: Cerebri Sans;
+    font-weight: 400;
+    line-height: 20px;
     color: #0F241B;
 }
 
 ul li.negative {
     color: #03A84E;
-    font-size: 1rem;
+    font-size: 14px;
+    font-family: Cerebri Sans;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 ul.total li {
     color: #0F241B;
-    font-size: 1.2rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: Cerebri Sans;
 }
 
 p.total-text {
@@ -331,6 +373,9 @@ p.total-text {
     margin-top: 7px;
     font-size: 12px;
     color: #4B6358;
+    font-family: Cerebri Sans;
+    font-weight: 400;
+    line-height: 16px;
 }
 
 /* Subscription Section */
@@ -342,8 +387,7 @@ div.choose1 {
 
 div.yellow-box1 {
     background-color: #F9FBFA;
-    padding: 10px 30px;
-    height: 100px;
+    padding: 20px;
     border-radius: 10px;
     border: 1px solid #CBD8D2;
     display: flex;
@@ -351,15 +395,18 @@ div.yellow-box1 {
 
 div.yellow-box1 p {
     color: #0F241B;
-    font-size: 1rem;
+    font-size: 14px;
     margin-left: 10px;
+    font-family: Cerebri Sans;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 /* Frequency Section */
 div.frequency-container {
     padding-left: 4rem;
     padding-right: 4rem;
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -374,12 +421,15 @@ div.frequency-container a {
     outline: none;
     border-radius: 50px;
     text-align: center;
-    font-size: 1rem;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Cerebri Sans;
+    line-height: 24px;
 }
 
 /* Footer Section */
 div.footer-container {
-    margin-top: 40px;
+    margin-top: 30px;
     padding-bottom: 20px;
     padding-left: 4rem;
     padding-right: 4rem;
@@ -388,7 +438,10 @@ div.footer-container {
 footer {
     text-align: center;
     color: #0F241B;
-    font-size: 1rem;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: Cerebri Sans;
 }
 
 footer a {
@@ -397,34 +450,13 @@ footer a {
 
 @media screen and (max-width: 768px) {
     div.progress-bar_section {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    div#wrapper {
         padding: 2rem;
-    }
-
-    h2 {
-        margin-left: 10px;
-        font-size: 1rem;
-    }
-
-    div.add {
-        margin-left: 6rem;
-    }
-
-    div.plan-heading h5 {
-        font-size: 1rem;
-    }
-    
-    div.plan-heading a {
-            
-        font-size: 0.9rem;
-        
-    }
-
-    div.container-heading h1 {
-        font-size: 1.8rem;
-    }
-    
-    div.container-heading p {
-        font-size: 0.9rem;
     }
 
     div.container-heading {
@@ -463,14 +495,6 @@ footer a {
         padding-right: 2rem;
     }
 
-    div.yellow-box1 {
-        height: 130px;
-    }
-
-    div.yellow-box1 p {
-        font-size: 0.9rem;
-    }
-
     div.frequency-container {
         padding-left: 2rem;
         padding-right: 2rem;
@@ -484,10 +508,6 @@ footer a {
         padding-left: 2rem;
         padding-right: 2rem;
         padding-bottom: 30px;
-    }
-
-    footer {
-        font-size: 0.9rem;
     }
 }
 
