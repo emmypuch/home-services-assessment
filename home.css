@@ -210,7 +210,7 @@ div.image-text h6 {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
-    margin-top: 5px;
+    margin-top: 2px;
     font-family: Cerebri Sans;
 }
 
@@ -578,14 +578,6 @@ div#navLinks {
     justify-content: space-between;
 }
 
-h2 {
-    font-size: 18px;
-    color: #0F241B;
-    line-height: 28px;
-    font-weight: 700;
-    font-family: PT Serif;
-}
-
 div.tab-container {
     margin-top: 30px;
 }
@@ -609,14 +601,6 @@ div.tab-content_wrapper {
     max-width: 80vw;
 }
 
-.tabs li {
-    float: left;
-    line-height: 38px;
-    overflow: hidden;
-    padding: 0;
-    position: relative;
-}
-
 .tabs a {
     font-weight: 500;
     font-size: 14px;
@@ -627,20 +611,6 @@ div.tab-content_wrapper {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-}
-
-.tabs :nth-child(1) a {
-    color: #0F241B;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 10px 40px;
-    width: 137px;
-    height: 42px;
-    text-align: center;
-    font-weight: 500;
-    font-family: Cerebri Sans;
-    font-size: 14px;
-    line-height: 20px;
 }
 
 .tabs :nth-child(2) a {
@@ -684,15 +654,6 @@ div.green-container {
     margin-top: 30px;
 }
 
-div.green-container h3 {
-    color: #fff;
-    font-size: 16px;
-    line-height: 24px;
-    font-family: Cerebri Sans;
-    margin-top: 7px;
-    font-weight: 500;
-}
-
 div.green-container p {
     font-size: 14px;
     font-weight: 400;
@@ -729,14 +690,6 @@ div.icon-2 {
     padding: 5px 10px;
 }
 
-div.text1 h4 {
-    font-size: 16px;
-    font-family: Cerebri Sans;
-    font-weight: 400;
-    line-height: 24px;
-    color: #03A84E;
-}
-
 div.text a {
     font-family: Cerebri Sans;
     font-weight: 400;
@@ -753,26 +706,12 @@ div.clock-container {
     margin-top: 15px;
 }
 
-/* div.image-text {
-    margin-left: 20px;
-    margin-top: 7px;
-} */
-
 div.image-text p {
     color: #4B6358;
     font-size: 14px;
     font-family: Cerebri Sans;
     font-weight: 400;
     line-height: 20px;
-}
-
-div.image-text h6 {
-    color: #0F241B;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    margin-top: 5px;
-    font-family: Cerebri Sans;
 }
 
 div.line {
@@ -823,14 +762,6 @@ div.icon-3 {
 
 div.text1 {
     margin-top: 3px;
-}
-
-div.text2 h4 {
-    font-size: 16px;
-    color: #FF9D00;
-    font-family: Cerebri Sans;
-    font-weight: 400;
-    line-height: 24px;
 }
 
 div.text1 a {
