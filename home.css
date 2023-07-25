@@ -194,7 +194,7 @@ div.image-container, div.clock-container {
 
 div.image-text {
     margin-left: 20px;
-    margin-top: 7px;
+    margin-top: 0px;
 }
 
 div.image-text p {
@@ -753,10 +753,10 @@ div.clock-container {
     margin-top: 15px;
 }
 
-div.image-text {
+/* div.image-text {
     margin-left: 20px;
     margin-top: 7px;
-}
+} */
 
 div.image-text p {
     color: #4B6358;
