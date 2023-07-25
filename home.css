@@ -426,6 +426,7 @@ a#call {
 .modal.active {
     display: flex;
     opacity: 1;
+    pointer-events: auto;
 }
 
 .close-btn {
@@ -1076,10 +1077,6 @@ div.margin h3 {
 }
 
 @media screen and (max-width: 768px) {
-    div.modal-container {
-        padding: 1rem;
-    }
-
     div.margin h3 {
         margin-top: 8px;
     }
