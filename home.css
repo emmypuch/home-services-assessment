@@ -411,10 +411,8 @@ a#call {
     justify-content: center;
     align-items: center;
     z-index: 1;
-    /* transition: opacity 0.3s ease;
-    transform: scale(1); */
-    transform-style: preserve-3d;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease;
+    transform: scale(1);
     
 }
 
@@ -424,10 +422,8 @@ a#call {
     padding: 30px;
     width: 100%;
     max-width: 450px;
-    /* transition: all 0.3s ease;
-    animation: blowUpModal 0.9s cubic-bezier(0.165, 0.84, 0.44, 1) forwards; */
-    transform: scale(0.8);
-    transition: transform 0.3s ease-in-out;
+    transition: all 0.3s ease;
+    animation: blowUpModal 0.9s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
 
 
@@ -443,11 +439,11 @@ a#call {
 
 @keyframes blowUpModal {
     0% {
-        transform: scale(0.8);
+        transform: scale(0);
     }
 
     100% {
-        transform: scale(1);
+        transform: scale(0.8);
     }
 }
 
