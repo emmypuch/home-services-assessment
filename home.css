@@ -457,28 +457,6 @@ div.order-flex p {
     line-height: 16px;
 }
 
-div.order-flex h2 {
-    color: #0F241B;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    margin-top: 4px;
-}
-
-div.delivery-box {
-    border-radius: 8px;
-    border: 1px dashed #CBD8D2;
-    padding: 15px;
-    margin-top: 30px;
-}
-
-div.delivery-box p {
-    color: #4B6358;
-    font-size: 12px;
-    line-height: 16px;
-    font-weight: 400;
-}
-
 div.delivery-box p:nth-child(2) {
     color: #0F241B;
     font-size: 14px;
@@ -654,15 +632,6 @@ div.green-container {
     margin-top: 30px;
 }
 
-div.green-container p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    color: #fff;
-    margin-top: 7px;
-    font-family: Cerebri Sans;
-}
-
 /* Food */
 div.wrapper {
     background-color: #F6FFFA;
@@ -700,20 +669,6 @@ div.text a {
     text-decoration: none;
 }
 
-div.image-container,
-div.clock-container {
-    display: flex;
-    margin-top: 15px;
-}
-
-div.image-text p {
-    color: #4B6358;
-    font-size: 14px;
-    font-family: Cerebri Sans;
-    font-weight: 400;
-    line-height: 20px;
-}
-
 div.line {
     height: 1px;
     background-color: #BDEECD;
@@ -723,14 +678,6 @@ div.line {
 div.clock-text {
     margin-left: 6px;
     margin-top: 1px;
-}
-
-div.clock-text h6 {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 16px;
-    font-family: Cerebri Sans;
-    color: #1D352A;
 }
 
 /* House Section */
@@ -797,19 +744,6 @@ div.house-icon_container {
 div.house-icon_container ul li {
     margin-left: 15px;
     list-style: none;
-}
-
-div.house-icon_container ul li a {
-    text-decoration: none;
-}
-
-div.house-icon_container ul li a h6 {
-    color: #8AA398;
-    font-size: 12px;
-    margin-top: 7px;
-    font-family: Cerebri Sans;
-    font-weight: 400;
-    line-height: 16px;
 }
 
 div.hamburger {
@@ -881,40 +815,11 @@ div.order-flex img {
     width: 40px;
 }
 
-div.order-flex p {
-    color: #4B6358;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 16px;
-}
-
-div.order-flex h2 {
-    color: #0F241B;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-}
-
 div.delivery-box {
     border-radius: 8px;
     border: 1px dashed #CBD8D2;
     padding: 20px;
     margin-top: 20px;
-}
-
-div.delivery-box p {
-    color: #4B6358;
-    font-size: 12px;
-    line-height: 16px;
-    font-weight: 400;
-}
-
-div.delivery-box p:nth-child(2) {
-    color: #0F241B;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 400;
-    margin-top: 7px;
 }
 
 div.dotted-line {
@@ -949,13 +854,6 @@ div.status-content2 {
     justify-content: space-between;
 }
 
-div.status-content1 h3 {
-    color: #0F241B;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-}
-
 div.time1 p {
     color: #4B6358;
     font-size: 12px;
@@ -963,24 +861,9 @@ div.time1 p {
     font-weight: 400;
 }
 
-div.status-content1 p.text {
-    color: #03A84E;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    margin-top: 5px;
-}
-
 div.status-content2 {
     margin-top: 24px;
     padding-bottom: 10px;
-}
-
-div.status-content2 h3 {
-    color: #0F241B;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
 }
 
 div.time1 {
@@ -992,14 +875,6 @@ div.time1 p {
     font-size: 12px;
     line-height: 16px;
     font-weight: 400;
-}
-
-div.status-content2 p.text1 {
-    color: #4B6358;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 400;
-    margin-top: 5px;
 }
 
 div.margin h3 {
